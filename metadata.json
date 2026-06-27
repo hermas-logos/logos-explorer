@@ -1,0 +1,6 @@
+{
+  "name": "Logos-Explorer",
+  "description": "A deep-dive study companion for Logos-Transmission, exploring the harmony between science, faith, and philosophy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
