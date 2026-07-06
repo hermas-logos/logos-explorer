@@ -59,7 +59,7 @@ export default function ExecutiveSummary({ summaryData, activeProfile }: Executi
       x: 0, 
       y: 0,
       transition: {
-        type: "spring",
+        type: "spring" as const, 
         stiffness: 100,
         damping: 15
       }

@@ -501,7 +501,7 @@ function QuizView() {
   const checkAndSubmit = () => {
     if (!selectedOpt || submitted) return;
     setSubmitted(true);
-    if (selectedOpt === activeQuestion.answer) {
+    if (selectedOpt === activeQuestion.correctAnswer) {
       setScore(prev => prev + 1);
     }
   };
@@ -540,7 +540,7 @@ function QuizView() {
             optionStyle = "border-amber-500 bg-amber-950/10 text-amber-400";
           }
           if (submitted) {
-            if (key === activeQuestion.answer) {
+            if (key === activeQuestion.correctAnswer) {
               optionStyle = "border-green-500 bg-green-950/20 text-green-400";
             } else if (selectedOpt === key) {
               optionStyle = "border-red-500 bg-red-950/20 text-red-400";
