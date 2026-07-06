@@ -361,7 +361,7 @@ export default function App() {
               {activeTab === 'summary' && (
                 <div className={`prose max-w-none text-sm leading-relaxed p-6 border rounded-xl ${darkMode ? 'prose-invert bg-slate-900/20 border-stone-800 text-stone-300' : 'bg-white border-stone-200 text-stone-800'}`}>
                   <div className="space-y-6">
-                    {markdownContent.split('\n\n').map((paragraph, pIdx) => {
+                    {markdownContent.split('\n\n').map((paragraph: string, pIdx: number) => {
                       if (paragraph.startsWith('## ')) {
                         return <h3 key={pIdx} className="text-xl font-bold font-serif text-amber-500 mt-6 border-b border-stone-800 pb-2">{paragraph.replace('## ', '')}</h3>;
                       }
@@ -374,7 +374,7 @@ export default function App() {
                       if (paragraph.startsWith('*   ') || paragraph.startsWith('-   ') || paragraph.startsWith('- ')) {
                         return (
                           <ul key={pIdx} className="list-disc list-inside pl-4 space-y-1">
-                            {paragraph.split('\n').map((li, liIdx) => (
+                            {paragraph.split('\n').map((li: string, liIdx: number) =>(
                               <li key={liIdx} className="text-stone-300">{li.replace(/^\s*[-*]\s+/, '')}</li>
                             ))}
                           </ul>
