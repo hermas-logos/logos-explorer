@@ -1,0 +1,128 @@
+{
+    "episodeId": "ep04",
+    "episodeTitle": "How Vast is the Universe",
+    "studyProfile": "College Academic (EN)",
+    "description": "An academic and theological assessment exploring the limits of cosmic scale, event horizons, space geometry, and the dual-revelation framework of Psalm 19.",
+    "questions": [
+        {
+            "id": 1,
+            "question": "In his exposition of Psalm 19, how does C.S. Lewis categorize the dual modes of divine communication outlined in the text?",
+            "options": {
+                "A": "Natural revelation conveying God's silent majesty, and written Scripture revealing His personal character, moral law, and grace.",
+                "B": "Scientific observation establishing physical laws, and spiritual intuition revealing mystical truths.",
+                "C": "Prophetic declaration revealing future timelines, and historical narratives showing divine providence.",
+                "D": "The music of the celestial spheres revealing cosmic order, and human conscience defining ethical standards."
+            },
+            "correctAnswer": "A",
+            "explanation": "C.S. Lewis emphasizes that Psalm 19 transitions beautifully from natural revelation\u2014where the heavens declare God's glory silently and without spoken words\u2014to special revelation, where written Scripture reveals God's personal covenant, grace, and perfect moral law."
+        },
+        {
+            "id": 2,
+            "question": "How is the observable universe's physical radius of 46.5 billion light-years reconciled with its chronological age of only 13.8 billion years?",
+            "options": {
+                "A": "Light traveled faster in the early universe due to higher thermal density.",
+                "B": "The metric expansion of space stretched the physical distance between objects after the photons were emitted.",
+                "C": "The observable limit is an optical illusion caused by gravitational lensing on a massive scale.",
+                "D": "Dark matter acceleration compressed the timeline of physical light propagation."
+            },
+            "correctAnswer": "B",
+            "explanation": "The light we see today from the edge of our observable bubble was emitted 13.8 billion years ago when those regions were much closer to us. Due to the metric expansion of space, those distant regions have since moved to their current distance of roughly 46.5 billion light-years."
+        },
+        {
+            "id": 3,
+            "question": "What is the physical significance of the 16-billion-light-year threshold known as the cosmic event horizon?",
+            "options": {
+                "A": "It represents the absolute physical edge of the entire infinite cosmic coordinate grid.",
+                "B": "It is the boundary where the density of dark matter drops to absolute zero.",
+                "C": "It is the limit beyond which space is expanding faster than light can travel toward us, making any emitted light permanently unreachable.",
+                "D": "It is the distance where cosmic microwave background radiation is completely absorbed by black holes."
+            },
+            "correctAnswer": "C",
+            "explanation": "Because of dark energy and the acceleration of cosmic expansion, a critical threshold exists at roughly 16 billion light-years. Any photon emitted beyond this distance today can never catch up to the expanding space, leaving those regions permanently and causally disconnected from us."
+        },
+        {
+            "id": 4,
+            "question": "Henrietta Leavitt's groundbreaking discovery of the Period-Luminosity relationship in Cepheid variables unlocked which rung of the Cosmic Distance Ladder?",
+            "options": {
+                "A": "The trigonometric parallax rung, measuring nearby stars inside our solar neighborhood.",
+                "B": "The standard candle rung, enabling astronomers to measure distances across intergalactic space.",
+                "C": "The Type Ia supernova rung, determining the acceleration rate of the distant cosmos.",
+                "D": "The cosmological redshift rung, mapping the absolute boundaries of the particle horizon."
+            },
+            "correctAnswer": "B",
+            "explanation": "By discovering that a Cepheid variable's pulsation period is directly related to its intrinsic brightness, Henrietta Leavitt turned these stars into 'standard candles,' allowing Edwin Hubble and others to calculate accurate distances to external galaxies."
+        },
+        {
+            "id": 5,
+            "question": "What cosmological reality does the concept of 'Trillion-Year Solitude' describe?",
+            "options": {
+                "A": "The complete decay of all baryonic matter into fundamental subatomic particles.",
+                "B": "The eventual isolation of our local galactic group into a single merged galaxy, with all other galaxies pushed beyond our observable event horizon by dark energy.",
+                "C": "The theological state of absolute separation between the created order and divine presence.",
+                "D": "The cooling of the cosmic microwave background radiation to absolute zero."
+            },
+            "correctAnswer": "B",
+            "explanation": "Over trillions of years, dark energy will push all galaxies not gravitationally bound to us beyond our cosmic event horizon. Our local group will merge into 'Milkomeda,' leaving future observers in a night sky devoid of any external stars or galaxies."
+        },
+        {
+            "id": 6,
+            "question": "The Bo\u00f6tes Void is primarily notable in observational cosmology for which of the following characteristics?",
+            "options": {
+                "A": "It is a massive region of space containing an extremely high concentration of dark energy.",
+                "B": "It is an incredibly sparse, spherical region of space roughly 250 to 330 million light-years across, containing very few galaxies.",
+                "C": "It is the point of origin for the cosmic microwave background radiation.",
+                "D": "It is a massive gravitational anomaly pulling the Milky Way toward the Great Attractor."
+            },
+            "correctAnswer": "B",
+            "explanation": "Known as 'The Great Nothing,' the Bo\u00f6tes Void is a supervoid measuring nearly 330 million light-years in diameter. It is so empty that if the Milky Way were at its center, we wouldn't have discovered other galaxies until the 1960s."
+        },
+        {
+            "id": 7,
+            "question": "Based on Planck satellite measurements, our universe exhibits a spatially 'flat' geometry within a 1% margin of error. What does this flat geometry mathematically imply about the cosmos?",
+            "options": {
+                "A": "The universe has a physical boundary resembling a flat, two-dimensional sheet.",
+                "B": "The universe is finite in volume but lacks any physical boundaries or edges.",
+                "C": "The universe is spatially infinite, meaning our observable bubble is an infinitesimal speck on an endless coordinate canvas.",
+                "D": "Parallel lines of light will eventually curve and converge back onto their origin point."
+            },
+            "correctAnswer": "C",
+            "explanation": "A spatially flat universe without global curvature implies a flat, Euclidean geometry that extends infinitely in all directions. Consequently, the physical cosmos is infinite, making our observable bubble a microscopic speck on an endless canvas."
+        },
+        {
+            "id": 8,
+            "question": "How does the literary and cognitive barrier known as the 'Twelve Zeroes Limit' affect the human comprehension of cosmological distances?",
+            "options": {
+                "A": "It prevents computer models from simulating stellar dynamics beyond 10^12 kilometers.",
+                "B": "It is the threshold where mathematical equations break down due to relativistic speeds.",
+                "C": "It describes the brain's evolutionary limitation, where any magnitude containing 12 or more zeroes is flattened into a generic, abstract concept of 'very far.'",
+                "D": "It is the visual resolution limit of modern optical telescopes looking back in time."
+            },
+            "correctAnswer": "C",
+            "explanation": "Our brains evolved to navigate local landscapes (miles or kilometers). Once numbers scale to trillions (12 zeroes) and beyond, the brain's ability to maintain a proportional sense of scale fails, abstracting the quantity to a non-spatial concept."
+        },
+        {
+            "id": 9,
+            "question": "In Psalm 19, how is the all-penetrating light and heat of the physical sun used metaphorically in relation to the Law of the Lord?",
+            "options": {
+                "A": "It represents the warmth of divine grace comforting the weary traveler.",
+                "B": "It symbolizes the blind, mechanical indifference of natural physical laws.",
+                "C": "It represents a standard of light that searches, penetrates, and exposes the hidden, secret faults of the human heart.",
+                "D": "It signifies the destructive judgment of God coming to burn away physical creation."
+            },
+            "correctAnswer": "C",
+            "explanation": "The psalm transitions from the physical sun, from whose heat 'nothing is hidden,' to the Law of the Lord, which acts as a spiritual light, searching the inner recesses of the soul, exposing secret faults, and calling the heart to purity."
+        },
+        {
+            "id": 10,
+            "question": "The constant 'erasure' of distant galaxies crossing our event horizon poses what philosophical and theological reflection for human observers?",
+            "options": {
+                "A": "It highlights human finitude and reinforces that our temporal window for observing and celebrating the cosmos is a temporary, highly privileged gift.",
+                "B": "It proves that physical laws are constantly mutating and are fundamentally unstable over time.",
+                "C": "It suggests that scientific knowledge will eventually become impossible and obsolete.",
+                "D": "It indicates that the physical cosmos is inherently hostile and is actively collapsing."
+            },
+            "correctAnswer": "A",
+            "explanation": "Because dark energy is actively moving distant galaxies out of reach, we live in a highly specific, privileged cosmic window. This temporary access to the deep heavens highlights our creaturely limitations and amplifies the gratitude we owe for our brief moment of revelation."
+        }
+    ]
+}

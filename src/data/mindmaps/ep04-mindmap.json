@@ -1,0 +1,171 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "type": "custom",
+      "data": {
+        "label": "The Silent Architecture",
+        "description": "Episode 04 Core Conceptual Synthesis",
+        "theme": "Cosmic Slate"
+      },
+      "position": { "x": 0, "y": 0 }
+    },
+    {
+      "id": "scale_problem",
+      "type": "custom",
+      "data": {
+        "label": "The Scale Problem",
+        "description": "Overcoming the biological limitations of human cosmic perception (Highway Moon Drive & Pale Blue Dot).",
+        "reference": "Scene 02"
+      },
+      "position": { "x": -300, "y": -150 }
+    },
+    {
+      "id": "radio_bubble",
+      "type": "custom",
+      "data": {
+        "label": "The Radio Bubble",
+        "description": "Our 100 light-year sphere of leaked signals compared to the Pacific Ocean of the Milky Way.",
+        "reference": "Scene 02"
+      },
+      "position": { "x": -550, "y": -150 }
+    },
+    {
+      "id": "distance_ladder",
+      "type": "custom",
+      "data": {
+        "label": "Cosmic Distance Ladder",
+        "description": "Overlapping calibration rungs reaching the deep cosmos: Parallax, Cepheids, Type Ia Supernovae, and Redshift.",
+        "reference": "Scene 03"
+      },
+      "position": { "x": -300, "y": 150 }
+    },
+    {
+      "id": "standard_candles",
+      "type": "custom",
+      "data": {
+        "label": "Standard Candles",
+        "description": "Henrietta Swan Leavitt's discovery linking pulsation rate to intrinsic luminosity in Cepheid variables.",
+        "reference": "Scene 03"
+      },
+      "position": { "x": -550, "y": 150 }
+    },
+    {
+      "id": "particle_horizon",
+      "type": "custom",
+      "data": {
+        "label": "The Particle Horizon",
+        "description": "The absolute edge of the observable universe governed by the speed of light and the 13.8B year age of the cosmos.",
+        "reference": "Scene 04"
+      },
+      "position": { "x": 250, "y": -200 }
+    },
+    {
+      "id": "observable_universe",
+      "type": "custom",
+      "data": {
+        "label": "Observable Universe",
+        "description": "A 93-billion-light-year diameter sphere of 'ghost' images stretched by expanding space.",
+        "reference": "Scene 05"
+      },
+      "position": { "x": 550, "y": -200 }
+    },
+    {
+      "id": "event_horizon",
+      "type": "custom",
+      "data": {
+        "label": "Cosmic Event Horizon",
+        "description": "The 16-billion-light-year absolute boundary where expanding space exceeds the speed of light.",
+        "reference": "Scene 06"
+      },
+      "position": { "x": 250, "y": 200 }
+    },
+    {
+      "id": "reachable_universe",
+      "type": "custom",
+      "data": {
+        "label": "Reachable Bubble",
+        "description": "The nested 32-billion-light-year diameter volume that humanity could theoretically visit or contact.",
+        "reference": "Scene 06"
+      },
+      "position": { "x": 550, "y": 200 }
+    },
+    {
+      "id": "cosmic_web",
+      "type": "custom",
+      "data": {
+        "label": "The Cosmic Web",
+        "description": "Sponge-like network of dark matter filaments and vast empty voids (Laniakea, Local Void).",
+        "reference": "Scene 07"
+      },
+      "position": { "x": 0, "y": -300 }
+    },
+    {
+      "id": "bootes_void",
+      "type": "custom",
+      "data": {
+        "label": "The Boötes Supervoid",
+        "description": "A colossally empty bubble 330 million light-years wide, holding only ~60 galaxies instead of 2,000.",
+        "reference": "Scene 07"
+      },
+      "position": { "x": -250, "y": -350 }
+    },
+    {
+      "id": "flat_space",
+      "type": "custom",
+      "data": {
+        "label": "Curvature of Space",
+        "description": "Planck Satellite CMB mapping confirming space is flat to within a margin of error, indicating an infinite universe.",
+        "reference": "Scene 08"
+      },
+      "position": { "x": 0, "y": 300 }
+    },
+    {
+      "id": "closing_window",
+      "type": "custom",
+      "data": {
+        "label": "The Closing Window",
+        "description": "Our highly privileged epoch. Driven by dark energy, galaxies will eventually cross the horizon and disappear forever.",
+        "reference": "Scene 09"
+      },
+      "position": { "x": 800, "y": 0 }
+    },
+    {
+      "id": "milkomeda",
+      "type": "custom",
+      "data": {
+        "label": "Milkomeda & Isolation",
+        "description": "In trillions of years, the local group merges. Cosmic expansion leaves a pitch-black night sky.",
+        "reference": "Scene 09"
+      },
+      "position": { "x": 1050, "y": -100 }
+    },
+    {
+      "id": "psalm_19",
+      "type": "custom",
+      "data": {
+        "label": "Psalm 19 Reflection",
+        "description": "C.S. Lewis's paradox of silent preaching: how the silent heavens reveal majesty, while moral law reveals personal character.",
+        "reference": "Scene 10"
+      },
+      "position": { "x": 800, "y": 250 }
+    }
+  ],
+  "edges": [
+    { "id": "e-root-scale", "source": "root", "target": "scale_problem", "animated": true },
+    { "id": "e-scale-bubble", "source": "scale_problem", "target": "radio_bubble" },
+    { "id": "e-root-distance", "source": "root", "target": "distance_ladder", "animated": true },
+    { "id": "e-ladder-candles", "source": "distance_ladder", "target": "standard_candles" },
+    { "id": "e-root-particle", "source": "root", "target": "particle_horizon" },
+    { "id": "e-particle-observable", "source": "particle_horizon", "target": "observable_universe", "style": { "strokeDasharray": "5,5" } },
+    { "id": "e-root-event", "source": "root", "target": "event_horizon" },
+    { "id": "e-event-reachable", "source": "event_horizon", "target": "reachable_universe", "style": { "strokeDasharray": "5,5" } },
+    { "id": "e-root-web", "source": "root", "target": "cosmic_web" },
+    { "id": "e-web-bootes", "source": "cosmic_web", "target": "bootes_void" },
+    { "id": "e-root-flat", "source": "root", "target": "flat_space" },
+    { "id": "e-observable-window", "source": "observable_universe", "target": "closing_window" },
+    { "id": "e-reachable-window", "source": "reachable_universe", "target": "closing_window" },
+    { "id": "e-window-milkomeda", "source": "closing_window", "target": "milkomeda" },
+    { "id": "e-window-psalm", "source": "closing_window", "target": "psalm_19", "label": "Theological Synthesis", "animated": true }
+  ]
+}
